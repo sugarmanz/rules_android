@@ -33,7 +33,7 @@ def define_flags():
 
     flags.DEFINE_int(
         name = "num_dex_shards",
-        default = 4,
+        default = 1,
         description = "Number of dex shards to use for mobile-install.",
     )
 
