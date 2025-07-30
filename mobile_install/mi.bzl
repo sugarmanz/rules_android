@@ -46,7 +46,7 @@ def aspect_impl(target, ctx):
     return infos
 
 def make_aspect(
-        dex_shards = 16,
+        dex_shards = 4,
         is_cmd = True,
         is_test = False,
         res_shards = 1,
